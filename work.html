@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2017.0.2.363"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "work.css"], "outOfDate":[]};
+</script>
+  
+  <title>Work</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3968571220"/>
+  <link rel="stylesheet" type="text/css" href="css/work.css?crc=216939998" id="pagesheet"/>
+  <!-- JS includes -->
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+  <![endif]-->
+  <script src="https://use.typekit.net/ik/VJB743rBfgOIBYdQGNk6TIULNg1-cUWaI2_GH2UVZTXfeTCgfwHDx3wPH26DFD6twQyLwebUZcJXZ2Jk5eIXFAIhFRJojhjt5esqFDFcZcZ8w2I-FPG0ShBkjA63ShyySc8cOc8zOYFyScBGwYFGjW4TZKoTdkUaiaS0ShBkjA63ShyySc8cOc8zJ6ikjAU8ihBoJ6Z0dh4Tde97f6KdqMIbMg62JMJ7fbRfwsMgeMS6MqGIQWmDZZMghrKwk69.js" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   try {Typekit.load();} catch(e) {}
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="puntitled"><!-- group -->
+     <a class="anchor_item grpelem" id="untitled"></a>
+     <a class="anchor_item grpelem" id="untitled2"></a>
+     <div class="browser_width grpelem" id="u3070-bw">
+      <div id="u3070"><!-- custom html -->
+       <!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>timeline</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+</head>
+
+<body>
+
+<style>
+ @import url('https://fonts.googleapis.com/css?family=Nobile');
+ @import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
+ @import url("https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet");
+.timeline {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+.timeline__content-title {
+  font-weight: normal;
+  font-size: 66px;
+  margin: -10px 0 0 0;
+  transition: .4s;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #fff;
+}
+.timeline__content-desc {
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  line-height: 25px;
+}
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+  background: rgba(255, 255, 255, 0.07);
+}
+@media only screen and (max-width: 767px) {
+  .timeline:before {
+    left: 40px;
+  }
+}
+.timeline-item {
+  padding: 40px 0;
+  opacity: .3;
+  filter: blur(2px);
+  transition: .5s;
+  box-sizing: border-box;
+  width: calc(50% - 40px);
+  display: flex;
+  position: relative;
+  transform: translateY(-80px);
+}
+.timeline-item:before {
+  content: attr(data-text);
+  letter-spacing: 2px;
+  width: 100%;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  font-family: 'Nobile', sans-serif;
+  font-weight: normal;
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  top: 70%;
+  margin-top: -5px;
+  padding-left: 15px;
+  opacity: 0;
+  right: calc(-100% - 56px);
+}
+.timeline-item:nth-child(even) {
+  align-self: flex-end;
+}
+.timeline-item:nth-child(even):before {
+  right: auto;
+  text-align: right;
+  left: calc(-100% - 56px);
+  padding-left: 0;
+  border-left: none;
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+  padding-right: 15px;
+}
+.timeline-item--active {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+.timeline-item--active:before {
+  top: 50%;
+  transition: .3s all .2s;
+  opacity: 1;
+}
+.timeline-item--active .timeline__content-title {
+  margin: -50px 0 20px 0;
+}
+@media only screen and (max-width: 767px) {
+  .timeline-item {
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px 150px 80px;
+  }
+  .timeline-item:before {
+    left: 10px !important;
+    padding: 0 !important;
+    top: 50px;
+    text-align: center !important;
+    width: 60px;
+    border: none !important;
+  }
+  .timeline-item:last-child {
+    padding-bottom: 40px;
+  }
+}
+.timeline__img {
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+.timeline-container {
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  transition: .3s ease 0s;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.timeline-container:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(99, 99, 99, 0.8);
+  content: "";
+}
+.timeline-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.timeline-header__title {
+  color: #fff;
+  font-size: 46px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+.timeline-header__subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
+
+.demo-footer {
+  padding: 60px 0;
+  text-align: center;
+}
+.demo-footer a {
+  color: #999;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+}  
+
+</style>
+  
+<div class="timeline-container" id="timeline-1">
+  <div class="timeline-header">
+    <h2 class="timeline-header__title"></h2>
+    <h3 class="timeline-header__subtitle"><br>Timeline</h3>
+  </div>
+  <div class="timeline">
+  <div class="timeline-item" data-text="Founder | Civic Ventures">
+      <div class="timeline__content"><img class="timeline__img" src="https://github.com/SarahSharif/Sarah0Sharif.io/blob/master/CivicVentures_Logo_RGB.png?raw=true"/>
+        <h2 class="timeline__content-title">2017</h2>
+        <p class="timeline__content-desc"><br>
+          • Consulting on projects related to social innovation and civic engagement.<br>
+          • Developing high quality business strategies and plans ensuring alignment with short-term and long-term objectives to elevate communities globally.<br> 
+          • Overseeing all operations and business activities to ensure they produce impactful results and are consistent with the overall global strategy and mission.<br>
+          • Building trust relations with key global partners and stakeholders in civic technology.<br>
+          • Maintaining a deep knowledge of the trends within the civic technology space for the millennial market and  subsequent generations.<br></p>
+          
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Event Director | ATX Hack for a Change">
+      <div class="timeline__content"><img class="timeline__img" src="https://sarahsharif.github.io/IMG_0179.JPG"/>
+        <h2 class="timeline__content-title">2017</h2>
+        <p class="timeline__content-desc"><br>
+          • Managing all strategic and operational activities regarding ATX Hack for Change.<br>
+          • Formulating local, national and global community awareness and engagement goals through the creation of a robust event sponsor and partner program.<br>
+          • Overseeing brand management and marketing to align with event development and growth; redesigned logo and materials for 2016 event.<br>
+          • Building and managing the website; from writing original content, design to drawing technical wireframes.<br>
+          • Implementing social media strategy and monitoring all multimedia content on all social media platforms.<br>
+          • Developing a repository of operational materials for long term, sustainable project success.</p>
+          <a href="https://www.youtube.com/watch?v=79Mhc1VN6gU&t=2s">Video About ATX Hack For Change</a>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="DigiGirlz Event Organizer | Microsoft ">
+      <div class="timeline__content"><img class="timeline__img" src="https://c.s-microsoft.com/en-us/CMSImages/greenleft.png?version=457b73c2-c406-3e26-6a86-19f725bee0a4"/>
+        <h2 class="timeline__content-title">2017</h2>
+        <p class="timeline__content-desc"><br>
+          • Assisting with event logistics on Digi Girlz; a Microsoft YouthSpark program, which gives middle and high school girls opportunities to learn about careers in technology and computer science.<br>
+          • Presenting civic hacking opportunities for future engagement to make an impact on local and global social issues.<br>
+          <a href="https://www.youtube.com/watch?v=P6abuNBFTeo&feature=youtu.be">Video About DigiGirlz</a>
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="IT Project Manager &amp; Communication Strategist | St. Edwards University">
+      <div class="timeline__content"><img class="timeline__img" src="https://github.com/SarahSharif/Sarah0Sharif.io/blob/master/Comm.png?raw=true"/>
+        <h2 class="timeline__content-title">2016</h2>
+        <p class="timeline__content-desc"><br>
+          • Oversees strategic communication planning and all written/multimedia materials.<br>
+          • Directs community outreach and OIT showcase events at SXSWedu.<br>
+          • Directs the in-house production of communication materials: print, web and video.<br>
+          • Collaboratively leads the development and execution of strategies for enhancing cross-functional communication within OIT and with external-facing entities.<br>
+          <a href="https://www.youtube.com/channel/UCxIsXDIUUm3rgvPnTfM0ymA">Video About OIT Comm</a>
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Conversation Organizer | Sierra Club">
+      <div class="timeline__content"><img class="timeline__img" src="https://sarahsharif.github.io/sierraClubIMG.jpg"/>
+        <h2 class="timeline__content-title">2015</h2>
+        <p class="timeline__content-desc"><br>
+          • Demonstrated OK, AR, and TX stakeholder concern on the Regional Haze (RH) rule to U.S. EPA.<br>
+          • Orchestrated volunteer fly-in to EPA HQ in Washington, D.C. to highlight RH work.<br>
+          • Project Manager for both Austin and Oklahoma City RH EPA Public Hearings.<br>
+          • Project Manager and Trainer for the Sierra Club Apprenticeship Program 2014-15.<br>
+          • Creator of @BeyondCoalTexas and updated the Beyond Coal Texas website.<br>
+          <a href="http://www.sierraclub.org/planet/2015/01/big-turnouts-austin-and-okc-epa-regional-haze-hearings">Article</a>
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Organizing Apprentice | Sierra Club ">
+      <div class="timeline__content"><img class="timeline__img" src="https://sarahsharif.github.io/sierraGreenPhoto.jpg"/>
+        <h2 class="timeline__content-title">2014</h2>
+        <p class="timeline__content-desc"><br>
+          • Demonstrated OK, AR, and TX stakeholder concern on the RH rule to EPA.<br>
+          • Conducted informational sessions with federal and gov. agencies in OK, AR, and TX.<br>
+          • Drafted RH press releases, blogs, email content, and fact sheets.<br>
+          • Social Media Coordinator for Dallas EPA Hearing and New Orleans Coal Exports Meeting<br>
+           <a href="http://bit.ly/1wMs3nX">Texas Green Report Blog</a>
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Peer Adviser, College of Biological Sciences (CBS) Dean’s Office | UC Davis">
+      <div class="timeline__content"><img class="timeline__img" src="https://github.com/SarahSharif/Sarah0Sharif.io/blob/master/ic%20davis.jpg?raw=true"/>
+        <h2 class="timeline__content-title">2012</h2>
+        <p class="timeline__content-desc"><br>• Co-creator of CBS student blog that streamlined academic processes<br>
+        <a href="www.cbspeerblog.wordpress.com
+">CBS Student Blog</a>
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Biomedical Research | UC Davis">
+      <div class="timeline__content"><img class="timeline__img" src="https://sarahsharif.github.io/biomedIMG.jpg"/>
+        <h2 class="timeline__content-title">2011</h2>
+        <p class="timeline__content-desc"><br>• Chosen to assist with experiments to transfect cells with light producing enzymes to use as a model system for testing contrast agents with quarterly presentations to research team.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Event Director | Cancer Awareness Health Fair | De Anza College">
+      <div class="timeline__content"><img class="timeline__img" src="https://github.com/SarahSharif/Sarah0Sharif.io/blob/master/final.jpg?raw=true"/>
+        <h2 class="timeline__content-title">2009</h2>
+        <p class="timeline__content-desc"><br>• Recruited local charities and solely managed event logistics on De Anza campus.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    
+
+
+<script>
+
+    (function($) {
+  $.fn.timeline = function() {
+    var selectors = {
+      id: $(this),
+      item: $(this).find(".timeline-item"),
+      activeClass: "timeline-item--active",
+      img: ".timeline__img"
+    };
+    selectors.item.eq(0).addClass(selectors.activeClass);
+    selectors.id.css("background-image", "url(" + selectors.item.first().find(selectors.img).attr("src") + ")");
+
+    var itemLength = selectors.item.length;
+    $(window).scroll(function() {
+      var max, min;
+      var pos = $(this).scrollTop();
+      selectors.item.each(function(i) {
+        min = $(this).offset().top;
+        max = ($(this).height() + $(this).offset().top);
+        var that = $(this)
+        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+          selectors.item.removeClass(selectors.activeClass);
+          selectors.id.css("background-image", "url(" + selectors.item.last().find(selectors.img).attr('src') + ")");
+          selectors.item.last().addClass(selectors.activeClass)
+        } else if (pos <= max - 40 && pos >= min) {
+          selectors.id.css("background-image", "url(" + $(this).find(selectors.img).attr('src') + ")");
+          selectors.item.removeClass(selectors.activeClass);
+          $(this).addClass(selectors.activeClass);
+        }
+
+      });
+    });
+
+  }
+})(jQuery);
+$("#timeline-1").timeline();
+</script>
+
+
+</body>
+</html>
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="u9187-4-bw">
+      <!-- m_editable region-id="editable-static-tag-U9187-BP_infinity" template="work.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+      <div class="clearfix" id="u9187-4" data-muse-uid="U9187" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+       <p>&nbsp; PROJECTS</p>
+      </div>
+      <!-- /m_editable -->
+     </div>
+     <div class="grpelem" id="u3118"><!-- custom html -->
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 50%;
+  left: 0;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+.container p {
+  font-size: 20px;
+}
+.container a {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  top: 5px;
+}
+.container a:after {
+  content: '';
+  position: absolute;
+  background: #000000;
+  height: 2px;
+  width: 0%;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0;
+  transition: .35s ease;
+}
+.container a:hover:after, .container a:focus:after, .container a:active:after {
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.button_container {
+  position: fixed;
+  top: 2.3%;
+  right: 2%;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity .25s ease;
+}
+.button_container:hover {
+  opacity: .7;
+}
+.button_container.active .top {
+  transform: translateY(11px) translateX(0) rotate(45deg);
+  background: #FFF;
+}
+.button_container.active .middle {
+  opacity: 0;
+  background: #FFF;
+}
+.button_container.active .bottom {
+  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  background: #FFF;
+}
+.button_container span {
+  background: #000000;
+  border: 30;
+  height: 5px;
+  width: 100%;
+  border-radius: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .35s ease;
+  cursor: pointer;
+}
+.button_container span:nth-of-type(2) {
+  top: 11px;
+}
+.button_container span:nth-of-type(3) {
+  top: 22px;
+}
+
+.overlay {
+  position: fixed;
+  background: #000000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+}
+.overlay.open {
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.open li {
+  animation: fadeInRight .5s ease forwards;
+  animation-delay: .35s;
+}
+.overlay.open li:nth-of-type(2) {
+  animation-delay: .4s;
+}
+.overlay.open li:nth-of-type(3) {
+  animation-delay: .45s;
+}
+.overlay.open li:nth-of-type(4) {
+  animation-delay: .50s;
+}
+.overlay nav {
+  position: relative;
+  height: 70%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  text-transform: lowercase;
+  font-weight: 400;
+  text-align: center;
+}
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  height: 25%;
+  height: calc(100% / 7);
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+}
+.overlay ul li a {
+  display: block auto;
+  position: relative;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+}
+.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+  width: 100%;
+}
+.overlay ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #FFF;
+  transition: .35s;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+</style>
+    <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./about.html">about</a></li>
+          <li><a href="./work.html">work</a></li>
+          <li><a href="./publications.html">publications</a></li>
+          <li><a href="./contact.html">contact</a></li>
+          <li><a href="./civic-ventures-llc.html">civic ventures</a></li>
+          <li><a href="./blog.html">blog</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  <script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+  </script>
+
+  </body>
+</html>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu3857"><!-- group -->
+     <a class="nonblock nontext" id="u3857" href="https://www.linkedin.com/in/sarah0sharif/"><!-- simple frame --></a>
+     <a class="nonblock nontext" id="u3861" href="https://twitter.com/sarah0sharif"><!-- simple frame --></a>
+    </div>
+    <div class="browser_width colelem" id="u9442-bw">
+     <div id="u9442"><!-- simple frame --></div>
+    </div>
+    <div class="verticalspacer" data-offset-top="5794" data-content-above-spacer="5794" data-content-below-spacer="62"></div>
+    <div class="clearfix colelem" id="pu3824"><!-- group -->
+     <div class="browser_width grpelem" id="u3824-bw">
+      <div id="u3824"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u3812-4-bw">
+      <div class="clearfix" id="u3812-4" data-IBE-flags="txtStyleSrc"><!-- content -->
+       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FOLLOW ME</p>
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="u3828-5-bw">
+      <div class="clearfix" id="u3828-5" data-IBE-flags="txtStyleSrc"><!-- content -->
+       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; © 2017 sarah0sharif.io ALL RIGHTS RESERVED<span id="u3828-2">____</span></p>
+      </div>
+     </div>
+     <div class="browser_width grpelem" id="u3844-bw">
+      <div id="u3844"><!-- group -->
+       <div class="clearfix" id="u3844_align_to_page">
+        <div class="grpelem" id="u3853"><!-- simple frame --></div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4234670167" type="text/javascript" async data-main="scripts/museconfig.js?crc=3849126041" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+   </body>
+</html>
