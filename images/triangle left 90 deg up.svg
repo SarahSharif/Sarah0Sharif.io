@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345 345">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>triangle left 90 deg up</title>
+  <polygon class="cls-1" points="345 345 345 0 0 0 345 345"/>
+</svg>

@@ -1,0 +1,102 @@
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sarah0sharif.io" resolutions="1x" timestamp="1497576540904">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-master.css" crc="3968571220" ref="work:contact:about:blog:civic-ventures-llc:index:publications"/>
+    <file name="nomq_preview_master_a-master.css" crc="250142402" ref="work:contact:about:blog:civic-ventures-llc:index:publications"/>
+    <file name="work.css" crc="216939998" ref="work"/>
+    <file name="contact.css" crc="4163579594" ref="contact"/>
+    <file name="about.css" crc="139906719" ref="about"/>
+    <file name="blog.css" crc="3954455785" ref="blog"/>
+    <file name="nomq_blog.css" crc="517834948" ref="blog"/>
+    <file name="civic-ventures-llc.css" crc="4024412727" ref="civic-ventures-llc"/>
+    <file name="index.css" crc="377477517" ref="index"/>
+    <file name="publications.css" crc="467551010" ref="publications"/>
+  </folder>
+  <folder name="assets">
+    <file name="animated-hamburger-widget_creativated.mulib" crc="264402833" seo="true" mt="1496690954000"/>
+    <file name="full-page-navigation.mulib" crc="4905596" seo="true" mt="1446776481000"/>
+    <file name="muse_blog_main.php" crc="3917235855" seo="true" mt="1463604774000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:contact:publications:civic-ventures-llc:work:blog"/>
+    <file name="museutils.js" crc="4232573551" ref="index:about:contact:publications:civic-ventures-llc:work:blog"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:contact:publications:civic-ventures-llc:work:blog"/>
+    <file name="museconfig.js" crc="3849126041" ref="index:about:contact:publications:civic-ventures-llc:work:blog"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index:about:contact:publications:civic-ventures-llc:blog"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:about:contact:publications:civic-ventures-llc:work:blog"/>
+    <file name="require.js" crc="4234670167" ref="index:about:contact:publications:civic-ventures-llc:work:blog"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="publications"/>
+    <file name="html5shiv.js" crc="4241844378" ref="publications:civic-ventures-llc:work:blog"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="blog"/>
+  </folder>
+  <folder name="images">
+    <file name="triangle.png" crc="4066478358" ref="index:about:civic-ventures-llc">
+      <caption webpage="index" alt=""/>
+      <caption webpage="civic-ventures-llc" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="nature-landscapes-mountains-monochrome-black-white-sky-clouds-wallpaper-1.jpg" crc="3953708992" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="triangle right long.svg" crc="321219409" ref="index"/>
+    <file name="triangle right long_poster_u766.png" crc="3776494438" ref="index"/>
+    <file name="triangle left upsidedown long.svg" crc="260728799" ref="index"/>
+    <file name="triangle left upsidedown long_poster_u780.png" crc="4246474997" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:contact:blog"/>
+    <file name="triangle left 90 deg up.svg" crc="112827712" ref="index"/>
+    <file name="triangle left 90 deg up_poster_u723.png" crc="3807832954" ref="index"/>
+    <file name="triangle left 90 deg.svg" crc="3943217677" ref="index"/>
+    <file name="triangle left 90 deg_poster_u745.png" crc="4290854343" ref="index"/>
+    <file name="in.png" crc="507896363" ref="index:blog">
+      <caption webpage="index" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+    </file>
+    <file name="misty-mountains.jpg" crc="4266160426" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="mount 2.jpg" crc="3937336449" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="linkedin-512-crop-u3887.png" crc="4098644289" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="twitter-512.png" crc="4016768862" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="youtube-icon-dark-crop-u3911.png" crc="464459398" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="864404.jpg" crc="4149687491" ref="publications">
+      <caption webpage="publications" alt=""/>
+    </file>
+    <file name="people.jpg" crc="4019296659" ref="civic-ventures-llc">
+      <caption webpage="civic-ventures-llc" alt=""/>
+    </file>
+    <file name="civicventures_logo_rgb.png" crc="3818359840" ref="civic-ventures-llc">
+      <caption webpage="civic-ventures-llc" alt=""/>
+    </file>
+    <file name="linkedin_circle_black-512.png" crc="4181746587" ref="civic-ventures-llc">
+      <caption webpage="civic-ventures-llc" alt=""/>
+    </file>
+    <file name="youtube-black-circle-icon.png" crc="3835925169" ref="civic-ventures-llc">
+      <caption webpage="civic-ventures-llc" alt=""/>
+    </file>
+    <file name="twitter_circle_black-256.png" crc="3766270500" ref="civic-ventures-llc">
+      <caption webpage="civic-ventures-llc" alt=""/>
+    </file>
+    <file name="tag_icon_1.png" crc="2867433" ref="blog">
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="111898243" seo="true" mt="1497571070478" redirect="true"/>
+  <file name="about.html" crc="296179336" seo="true" mt="1497571003575" redirect="true"/>
+  <file name="contact.html" crc="390995366" seo="true" mt="1497387448741" redirect="true"/>
+  <file name="publications.html" crc="3869428775" seo="true" mt="1497570351199" redirect="true"/>
+  <file name="civic-ventures-llc.html" crc="3922454074" seo="true" mt="1497575723096" redirect="true"/>
+  <file name="work.html" crc="3993420959" seo="true" mt="1497576387289" redirect="true"/>
+  <file name="blog.html" crc="167827197" seo="true" mt="1497570316331" redirect="true"/>
+</manifest>
